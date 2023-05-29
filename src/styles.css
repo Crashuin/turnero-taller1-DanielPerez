@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: #e2ebe2;
+}
+#contenedor-turnero {
+    color: white;
+    background: #1a535c;
+    border-radius: 5px;
+    max-width: 400px;
+ }
+
+ #contenedor-portada {
+    color: white;
+    max-width: 900px;
+    background: #3fa8a1;
+    border-radius: 5px;
+ }
+
+ .imagen-logo-udenar{
+    width: 50%;
+ }

@@ -1,0 +1,26 @@
+<div class="mt-3 fs-2 p-4">
+
+    <button [class]="{
+        'btn' : true,
+        'btn-success' : verdeBotonMenos,
+        'btn-danger' : rojoBotonMenos,
+        'disabled' : desactivarBotonMenos,
+    }" class="mx-4 fs-3 btn-lg shadow" style="--bs-btn-padding-x: 0.8em;"
+    (click)="decrementar()">
+        -
+    </button>
+
+    <label class="mx-3">{{numero}}</label>
+
+    <button [class]="{
+        'btn' : true,
+        'btn-success' : verdeBotonMas,
+        'btn-danger' : rojoBotonMas,
+        'btn-warning' : amarilloBotonMas,
+        'disabled' : desactivarBotonMas,
+    }" class="mx-4 fs-3 btn-lg shadow" style="--bs-btn-padding-x: 0.8em;"
+    (click)="incrementar()">
+        +
+    </button>
+
+</div>
